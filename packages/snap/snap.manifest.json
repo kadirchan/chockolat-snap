@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "description": "Transaction Insight",
+  "proposedName": "Chockolat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "Z2rYNvpnzjcvWNkF9KKB5xNcgAtBb4FmXwXVJ0Ly5/0=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "chockolat-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:transaction-insight": {},
+    "endowment:ethereum-provider": {}
+  },
+  "manifestVersion": "0.1"
+}
