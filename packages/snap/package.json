@@ -1,7 +1,7 @@
 {
-  "name": "chockolat-snap",
+  "name": "snap",
   "version": "0.1.0",
-  "description": "",
+  "description": "The 'Hello, world!' of MetaMask Snaps, now written in TypeScript.",
   "repository": {
     "type": "git",
     "url": "https://github.com/MetaMask/template-snap-monorepo.git"
@@ -29,7 +29,8 @@
   "dependencies": {
     "@metamask/snaps-types": "^3.0.1",
     "@metamask/snaps-ui": "^3.0.1",
-    "buffer": "^6.0.3"
+    "buffer": "^6.0.3",
+    "ethers": "5.7.2"
   },
   "devDependencies": {
     "@jest/globals": "^29.5.0",
