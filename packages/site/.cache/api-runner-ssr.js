@@ -1,18 +1,18 @@
 var plugins = [{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap2/node_modules/gatsby-plugin-styled-components/gatsby-ssr.js'),
+      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap/node_modules/gatsby-plugin-styled-components/gatsby-ssr.js'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap2/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"name":"Template Snap","icon":"src/assets/logo.svg","theme_color":"#6F4CFF","background_color":"#FFFFFF","display":"standalone","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"96ce3237722cfe869f93249367a3fca1"},
     },{
       name: 'default-site-plugin',
-      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap2/packages/site/gatsby-ssr.tsx'),
+      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap/packages/site/gatsby-ssr.tsx'),
       options: {"plugins":[]},
     },{
       name: 'partytown',
-      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap2/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('/home/kadircan/Desktop/ethglobal/chockolat-snap/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */
